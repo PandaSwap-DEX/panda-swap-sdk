@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pandaswap/panda-swap-sdk.git",
+  "repository": "https://github.com/PandaSwap-DEX/panda-swap-sdk.git",
   "keywords": [
     "pandaswap",
     "gnosis"
