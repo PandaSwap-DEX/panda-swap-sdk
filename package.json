@@ -1,14 +1,14 @@
 {
-  "name": "@pandaswap/sdk",
+  "name": "@pandaswap-dex/sdk",
   "license": "MIT",
-  "version": "3.0.0-2",
+  "version": "3.0.1",
   "description": "🛠 An SDK for building applications on top of Pandaswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pandaswap/panda-swap-sdk.git",
+  "repository": "https://github.com/PandaSwap-DEX/panda-swap-sdk.git",
   "keywords": [
     "pandaswap",
     "gnosis"
@@ -27,7 +27,8 @@
     "jsbi": "^3.1.4",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3",
-    "toformat": "^2.0.0"
+    "toformat": "^2.0.0",
+    "typescript": "^4.8.2"
   },
   "peerDependencies": {
     "@ethersproject/address": "^5.0.0",
