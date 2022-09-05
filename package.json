@@ -8,7 +8,10 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/PandaSwap-DEX/panda-swap-sdk.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PandaSwap-DEX/panda-swap-sdk.git"
+  },
   "keywords": [
     "pandaswap",
     "gnosis"
@@ -57,5 +60,13 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/PandaSwap-DEX/panda-swap-sdk/issues"
+  },
+  "homepage": "https://github.com/PandaSwap-DEX/panda-swap-sdk#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": "pandaswap-dex"
 }
