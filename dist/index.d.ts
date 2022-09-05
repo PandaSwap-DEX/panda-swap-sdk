@@ -16,12 +16,12 @@ declare enum Rounding {
     ROUND_HALF_UP = 1,
     ROUND_UP = 2
 }
-declare const FACTORY_ADDRESS = "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73";
+declare const FACTORY_ADDRESS = "0x2b316B60a79b2C5CC7145CcD449E82414d9148ab";
 declare const FACTORY_ADDRESS_MAP: {
     100: string;
     100100: string;
 };
-declare const INIT_CODE_HASH = "0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5";
+declare const INIT_CODE_HASH = "0x93b44c6184eab6881db78e8b70225d3b3b9ac5149fbc5fd5f835193df64ba66d";
 declare const INIT_CODE_HASH_MAP: {
     100: string;
     100100: string;

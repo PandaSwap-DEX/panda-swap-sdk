@@ -19,15 +19,15 @@ var Rounding = /* @__PURE__ */ ((Rounding4) => {
   Rounding4[Rounding4["ROUND_UP"] = 2] = "ROUND_UP";
   return Rounding4;
 })(Rounding || {});
-var FACTORY_ADDRESS = "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73";
+var FACTORY_ADDRESS = "0x2b316B60a79b2C5CC7145CcD449E82414d9148ab";
 var FACTORY_ADDRESS_MAP = {
   [100 /* GNOSIS */]: FACTORY_ADDRESS,
-  [100100 /* GNOSIS_TESTNET */]: "0x6725f303b657a9451d8ba641348b6761a6cc7a17"
+  [100100 /* GNOSIS_TESTNET */]: "0x2b316B60a79b2C5CC7145CcD449E82414d9148ab"
 };
-var INIT_CODE_HASH = "0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5";
+var INIT_CODE_HASH = "0x93b44c6184eab6881db78e8b70225d3b3b9ac5149fbc5fd5f835193df64ba66d";
 var INIT_CODE_HASH_MAP = {
   [100 /* GNOSIS */]: INIT_CODE_HASH,
-  [100100 /* GNOSIS_TESTNET */]: "0xd0d4c4cd0848c93cb4fd1f498d7013ee6bfb25783ea21593d5834f5d250ece66"
+  [100100 /* GNOSIS_TESTNET */]: "0x93b44c6184eab6881db78e8b70225d3b3b9ac5149fbc5fd5f835193df64ba66d"
 };
 var MINIMUM_LIQUIDITY = JSBI.BigInt(1e3);
 var ZERO = JSBI.BigInt(0);
@@ -187,7 +187,7 @@ var WXDAI = {
     18,
     "WXDAI",
     "Wrapped XDAI",
-    "https://www.gnosis.org"
+    "https://gnosis.io/"
   ),
   [100100 /* GNOSIS_TESTNET */]: new Token(
     100100 /* GNOSIS_TESTNET */,
@@ -195,7 +195,7 @@ var WXDAI = {
     18,
     "WXDAI",
     "Wrapped XDAI",
-    "https://www.gnosis.org"
+    "https://gnosis.io/"
   )
 };
 var WNATIVE = {
@@ -1651,7 +1651,7 @@ var ERC20_default = [
 // src/fetcher.ts
 var TOKEN_DECIMALS_CACHE = {
   [100 /* GNOSIS */]: {
-    "0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A": 9
+    "0xd3b93fF74E43Ba9568e5019b38AdDB804feF719B": 8
   }
 };
 var Fetcher = class {
