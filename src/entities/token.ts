@@ -91,7 +91,7 @@ export const WXDAI = {
     18,
     'WXDAI',
     'Wrapped XDAI',
-    'https://www.gnosis.org'
+    'https://gnosis.io/'
   ),
   [ChainId.GNOSIS_TESTNET]: new Token(
     ChainId.GNOSIS_TESTNET,
@@ -99,7 +99,7 @@ export const WXDAI = {
     18,
     'WXDAI',
     'Wrapped XDAI',
-    'https://www.gnosis.org'
+    'https://gnosis.io/'
   ),
 }
 
